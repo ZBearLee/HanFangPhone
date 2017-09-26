@@ -1,0 +1,180 @@
+      .homepage {
+            margin: 0 auto;
+            width: 1000px;
+            height: 750px;
+            background-color: #313131;
+        }
+        .header {
+            height: 170px;
+            width: 100%;
+            position: relative;
+        }
+        
+         .header_top {
+            height: 80px;
+        }
+
+        .header_top ul {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .header_top ul li {
+            width: 86px;
+            height: 26px;
+            background-color: #515151;
+            margin-right: 20px;
+            line-height: 26px;
+            text-align: center;
+            transform: translateY(53.5px);
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+
+        .header_top ul li a {
+            font-size: 12px;
+            letter-spacing: 2px;
+        }
+
+        .header_bottom {
+            height: 90px;
+            background: -webkit-linear-gradient(top, #fefffe 20%, #f3eee8 80%);
+            text-align: right;
+            line-height: 90px;
+            font-weight: bold;
+        }
+
+        .header_bottom h1 {
+            margin-right: 40px;
+            color: #176ab9;
+            text-shadow: 0 0 1px #176ab9;
+            font-weight: 900;
+        }
+
+        .logo {
+            position: absolute;
+            top: 6px;
+            left: 80px;
+            width: 330px;
+            height: 164px;
+            background: -webkit-linear-gradient(top, #f2efea 50%, #eeebe7 50%);
+        }
+
+        .logo img {
+            margin: 20px;
+        }
+
+        .header_top ul li:first-child {
+            background-color: #fff;
+            border-bottom-color: #fff;
+        }
+
+        .header_top ul li:first-child a {
+            color: #000;
+        }
+
+        .banner {
+            width: 1000px;
+            height: 280px;
+            background-color: #3c8ad6;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #fff;
+        }
+
+        .banner img {
+            width: 320px;
+            height: 250px;
+            margin-top: 10px;
+            margin-right: 5px;
+        }
+
+        h2 {
+            margin-top: 38px;
+            text-indent: 2em;
+            font-size: 26px;
+            letter-spacing: 2px;
+        }
+
+        h3 {
+            text-indent: 4em;
+            font-size: 26px;
+            margin-bottom: 65px;
+            letter-spacing: 2px;
+        }
+
+        .banner p {
+            font-size: 12px;
+            letter-spacing: 1px;
+            margin-top: 10px;
+            text-indent: 4em;
+        }
+
+        .banner p span {
+            margin-left: 2em;
+        }
+
+        .footer {
+            width: 100%;
+            height: 260px;
+            display: flex;
+        }
+
+        .f_left {
+            width: 362px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            background: -webkit-linear-gradient(top, #e9e9e0 20%, #f3f5f8 50%)
+        }
+
+        .f_left img:first-child {
+            margin-left: 10px;
+        }
+
+        .f_right {
+            width: 638px;
+            background: -webkit-linear-gradient(top, #e9e9ed 20%, #f3f5f8 50%)
+        }
+
+        .f_right ul {
+            display: flex;
+            height: 100%;
+        }
+
+        .f_right ul li {
+            width: 25%;
+            margin-top: 10%;
+        }
+
+        .f_right ul li span {
+            text-align: center;
+        }
+
+        .f_right ul li span img {
+            width: 65px;
+            height: 119px;
+            margin-left: 25%
+        }
+
+        .f_right ul li p {
+            text-align: center;
+            text-indent: -1em;
+            color: #000;
+        }
+
+        .connect {
+            height: 40px;
+        }
+
+        .connect p {
+            font-size: 12px;
+            text-align: center;
+            line-height: 40px;
+            word-spacing: 0.5em;
+        }
+
+        .connect p span {
+            margin-left: 4em;
+        }

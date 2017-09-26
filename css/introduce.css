@@ -1,0 +1,32 @@
+ .introductpage {
+            margin: 0 auto;
+            width: 1000px;
+            height: 800px;
+            background-color: #313131;
+        }
+
+        .header_top ul li:nth-of-type(2) {
+            background-color: #fff;
+            border-bottom-color: #fff;
+        }
+
+        .header_top ul li:nth-of-type(2) a {
+            color: #000;
+        }
+
+        .words {
+            height: 472px;
+            width: 100%;
+            background: -webkit-linear-gradient(top, #eaebee 20%, #f3f5f8 80%);
+        }
+        
+        .words p {
+            font-size: 12px;
+            clear: both;
+            margin: 0 30px;
+            text-indent: 2em;
+            letter-spacing: 2px;
+            line-height: 24px;
+            color: #6c6b6b;
+        }
+
